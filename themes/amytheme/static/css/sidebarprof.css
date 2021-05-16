@@ -1,0 +1,55 @@
+.profTitle{
+  text-align: center;
+  margin-bottom: 16px;
+}
+.profImg{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.profAuthor{
+  text-align: center;
+  margin: 8px;
+}
+.profText{
+  margin: 0 auto;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.follow{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 3px;
+}
+/* ----------------------------------------
+PC
+---------------------------------------- */
+@media screen and (min-width: 601px){
+  .profContainer{
+    margin: 32px;
+    padding:24px 0;
+  }
+  .profImg{
+    width: 80px;
+  }
+
+}
+/* ----------------------------------------
+スマホ
+---------------------------------------- */
+@media screen and (max-width: 600px){
+  .profContainer{
+    margin: 32px;
+    padding:24px 0;
+    box-shadow: 0 0.5px 5px 0 rgba(0,0,0, 0.2);
+  }
+  .profImg{
+    width: 60px;
+  }
+  .profText{
+    width: 90%;
+  }
+
+}

@@ -1,0 +1,17 @@
+{{define "main"}}
+<h1 class="mPlus1p titles title404">404 Page not found</h1>
+<p class="p404">お探しのページは見つからなかったにゃ<i class="fas fa-paw"></i></p>
+<script type="text/javascript">
+  var imglist = new Array(
+    "/img/1.jpg",
+    "/img/2.jpg",
+    "/img/3.jpg",
+    "/img/4.jpg",
+    "/img/5.jpg",
+    "/img/6.jpg",
+  );
+  var selectnum = Math.floor(Math.random() * imglist.length);
+  var output = "<img class=\"img404\" src=" + imglist[selectnum] + ">";
+  document.write(output);
+</script>
+{{end}}

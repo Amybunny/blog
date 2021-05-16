@@ -1,0 +1,49 @@
+.title404{
+  text-align: center;
+}
+.p404{
+  text-align: center;
+}
+.img404{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+/* ----------------------------------------
+PC
+---------------------------------------- */
+@media screen and (min-width: 1024px){
+  .title404{
+    margin-top: 40px;
+  }
+  .p404{
+    margin-bottom: 24px;
+  }
+  .img404{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1024px){
+  .title404{
+    margin-top: 40px;
+  }
+  .p404{
+    margin-bottom: 24px;
+  }
+  .img404{
+    width: 80%;
+  }
+}
+/* ----------------------------------------
+スマホ
+---------------------------------------- */
+@media screen and (max-width: 600px){
+
+  .p404{
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .img404{
+    width: 200px;
+  }
+}

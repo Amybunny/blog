@@ -1,0 +1,11 @@
+{{/*次ページ*/}}
+<li>
+  <a href="{{ if $.Pagenater.HasNext }}{{ $.Pagenater.Next.URL }}{{ end }}" aria-label="Next">
+    次へ
+  </a>
+</li>
+
+{{/*最後へ*/}}
+<li>
+  <a href="{{ $.Pagenater.Last.URL }}" aria-label="Last">最後へ</a>
+</li>

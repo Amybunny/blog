@@ -1,0 +1,18 @@
+baseurl = "https://Amybunny.github.io"
+languageCode = "ja"
+title = "ねむみの極み（検証用）"
+theme = "amytheme"
+disableKinds = ["RSS","sitemap"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[Params]
+  dateFormat = "2006-01-02"
+  author = "あみぃ"
+  img = "img/mooface.jpg"
+  prof = "プログラミングを勉強中の29歳です。学習中に得た知見をブログにまとめています。"
+  favicon = "favicon.ico"
+  logo = "img/mooface.jpg"
+  mainSections = ["post","posts"]
