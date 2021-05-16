@@ -1,3 +1,11 @@
+blockquote{
+  padding-left: 10px;
+  border-left:5px solid #ddd;
+}
+.thumbnail{
+  display: block;
+  margin: 0 auto;
+}
 .singleContainer{
   width: 90%;
   margin: 0 auto;
@@ -6,6 +14,31 @@
   display: block;
   margin: 16px auto;
   border-radius: 4px;
+  width:100%;
+}
+.singleContent h1{
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  /* border-left:5px solid #f6ad3c; */
+  padding: 5px 8px 4px 8px;
+  margin: 40px 0 8px 0;
+  background-color: #f6ad3c;
+  color:white;
+}
+.singleContent h2{
+  /* font-family: 'M PLUS 1p', sans-serif; */
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom:2px solid #f6ad3c;
+  padding-left: 8px;
+  margin: 24px 0 8px 0;
+}
+.singleContent a{
+  color:#f6ad3c;
+}
+.singleContent{
+  line-height: 1.5;
 }
 .share{
   text-align: center;
@@ -29,9 +62,6 @@
   color: #f6ad3c;
   text-align: right;
 }
-.singleContent{
-  line-height: 1.5;
-}
 .share{
   margin-bottom: 8px;
 }
@@ -41,16 +71,21 @@
 /* ----------------------------------------
 PC
 ---------------------------------------- */
+@media screen and (min-width:1024px){
+  .singleContent img{
+    width:70%;
+  }
+}
 @media screen and (min-width: 601px){
   .singleDate{
     font-size: 12.6px;
   }
+  .singleTitle{
+    margin: 48px 0 16px 0;
+  }
   .singleContent{
     line-height: 1.5;
     margin-bottom: 32px;
-  }
-  .singleContent img{
-    width: 60%;
   }
   .shareBtnArea{
     margin-bottom: 32px;
@@ -75,20 +110,31 @@ PC
 /* ----------------------------------------
 スマホ
 ---------------------------------------- */
+@media screen and (max-width: 730px){
+  .thumbnail{
+    width:90%;
+  }
+}
 @media screen and (max-width: 600px){
+  .thumbnail{
+    width:90%;
+  }
   .singleDate{
     font-size: 11.2px;
   }
   .singleContent{
     margin:0 auto 16px auto;
     width: 90%;
-    font-size: 14px;
+    /* font-size: 14px; */
   }
   .singleContent img{
     width: 90%;
   }
   .singlePrev,.singleNext{
     margin:22px 16px;
+  }
+  .shareBtnArea{
+    margin-bottom: 32px;
   }
   .breadCrumb{
     font-size: 12px;

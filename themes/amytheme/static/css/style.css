@@ -1,11 +1,19 @@
 body{
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN",
+	font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic ProN",
 	"メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	color: #545454;
 }
-.front{
-  width: 90%;
-  margin: 0 auto;
+pre{
+  padding: 8px 0;
+  overflow-x: scroll;
+}
+code{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size:15px;
+}
+:not(pre) > code {
+  background-color: #f5f5f5;
+  color: #d7003a;
 }
 .wrapper{
   min-height:100vh;

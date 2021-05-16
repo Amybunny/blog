@@ -119,11 +119,6 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: inherit; /* 2 */
-}
-
 address {
   font-style: inherit;
 }
@@ -165,12 +160,11 @@ strong {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-code,
+
 kbd,
 samp {
   font-family: monospace, monospace; /* 1 */
   font-size: inherit; /* 2 */
-  background-color: #f5f5f5;
   color: #ff3860;
 }
 

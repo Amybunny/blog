@@ -1,6 +1,6 @@
 baseurl = "https://amybunny.github.io"
 languageCode = "ja"
-title = "ねむみの極み（検証用）"
+title = "ねむみの極み"
 theme = "amytheme"
 disableKinds = ["RSS","sitemap"]
 
