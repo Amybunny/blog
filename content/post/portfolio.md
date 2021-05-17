@@ -1,6 +1,7 @@
 ---
 title: "ポートフォリオ"
 date: 2021-02-23
+lastmod: 2021-05-17
 categories: その他
 share_img: "img/portfolio/portfolio.png"
 # draft: true
@@ -31,6 +32,16 @@ herokuで公開するのに必要なmavenの知識をイチから学習したた
 WordPressでデザインからコーディングまで全て行いました。  
 アクセス元は大半がスマホであると予想し、スマホに最適化したデザインにしています。  
 [公開先](https://euphoria-reiki.net)  
+
+# ひとこと掲示板(T○itterのようなアプリ)
+{{< figure src="/img/portfolio/liketwi.png" >}}
+フレームワークを使わず、素のPHPやJavaScriptで以下の機能を作りました。  
+会員登録/ログイン/投稿/削除/投稿検索/プロフィール編集/画像アップロード/メッセージのやり取り  
+<br>
+ゲストログインすると投稿はできますが、プロフィールの編集はできなくなっています。  
+スマホレイアウト非対応です。  
+[公開先](https://amybunny.moo.jp/)  
+[ソースコード](https://github.com/Amybunny/liketwi)
 
 # ToDoリスト
 {{< figure src="/img/portfolio/todolist.png" >}}
@@ -78,8 +89,7 @@ JavaScriptを学びたての頃に作りました。
 
 # 病院サイトのデザイン
 {{< figure src="/img/portfolio/PC.png" >}}
-デザインを勉強してみたこともあります。  
-クラウドソーシングサイトでお題を見つけて、作ってみました。
+デザインを勉強したので、クラウドソーシングサイトでお題を見つけて作ってみました。
 Photoshopを使用しています。
 <br>
 <br>
