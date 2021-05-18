@@ -3,6 +3,7 @@ languageCode = "ja"
 title = "ねむみの極み"
 theme = "amytheme"
 disableKinds = ["RSS","sitemap"]
+googleAnalytics = "G-K1YGFJSJ22"
 
 [taxonomies]
   tag = "tags"
