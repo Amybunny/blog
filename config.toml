@@ -15,7 +15,7 @@ googleAnalytics = "G-K1YGFJSJ22"
   img = "img/mooface.jpg"
   prof = "プログラミングを勉強中の29歳です。学習中に得た知見をブログにまとめています。"
   favicon = "favicon.ico"
-  logo = "img/mooface.jpg"
+  logo = "img/thumbnail.jpg"
   mainSections = ["post","posts"]
 
 [markup]
