@@ -1,24 +1,51 @@
 ---
 title: "ポートフォリオ"
 date: 2021-02-23
-lastmod: 2021-05-17
+lastmod: 2021-05-22
 categories: その他
 share_img: "img/portfolio/portfolio.png"
 # draft: true
-description: プログラミングを学習して、今までに作ったものをまとめました。
+description: プログラミングを学習して、今までに作ったものや実績をまとめました。
 ---
 <br>
-今までに作ったものをまとめました。
+今までに作ったものや実績をまとめました。
 <br>
 <br>
 
-# このブログ
+# Webサイトなど
+
+## ヒーリングサロンのWebサイト
+{{< figure src="/img/portfolio/salon.png" >}}
+WordPressでデザインからコーディングまで全て行いました。  
+アクセス元は大半がスマホであると予想し、スマホに最適化したデザインにしています。  
+[公開先](https://euphoria-reiki.net)  
+<br>
+<br>
+
+## WordPressのカスタマイズ
+{{< figure src="/img/portfolio/blog.png" >}}
+WordPressで既存テーマのカスタマイズを行いました。    
+カテゴリ一覧に飛べるバナーと、固定ページに飛べるバナーを作りました。  
+[公開先](https://apomaru.com)  
+<br>
+<br>
+
+## 病院サイトのデザイン
+{{< figure src="/img/portfolio/PC.png" >}}
+デザインを勉強したので、クラウドソーシングサイトでお題を見つけて作ってみました。
+Photoshopを使用しています。
+<br>
+<br>
+
+## このブログ
 このブログは、静的サイトジェネレータHugoでオリジナルテーマを作成し、GitHubPagesで公開しています。WordPressに比べて日本語の情報が少ないので苦労しました。  
 [テーマのソースコード](https://github.com/Amybunny/amytheme)
 <br>
 <br>
 
-# 無限いいね
+# Webアプリなど
+
+## 無限いいね
 {{< figure src="/img/portfolio/mugenlikes.png" >}}
 Javaで何か作ってみたかったので、サーブレット/JSPを使って、何回でもいいねを押せるアプリを作りました。  
 herokuで公開するのに必要なmavenの知識をイチから学習したため、デプロイだけでも30時間くらいかかりました。  
@@ -27,23 +54,21 @@ herokuで公開するのに必要なmavenの知識をイチから学習したた
 <br>
 <br>
 
-# ヒーリングサロンのWebサイト
-{{< figure src="/img/portfolio/euphoria.png" >}}
-WordPressでデザインからコーディングまで全て行いました。  
-アクセス元は大半がスマホであると予想し、スマホに最適化したデザインにしています。  
-[公開先](https://euphoria-reiki.net)  
-
-# ひとこと掲示板(T○itterのようなアプリ)
+## ひとこと掲示板(T○itterのようなアプリ)
 {{< figure src="/img/portfolio/liketwi.png" >}}
 フレームワークを使わず、素のPHPやJavaScriptで以下の機能を作りました。  
+<br>
 会員登録/ログイン/投稿/削除/投稿検索/プロフィール編集/画像アップロード/メッセージのやり取り  
 <br>
 ゲストログインすると投稿はできますが、プロフィールの編集はできなくなっています。  
 スマホレイアウト非対応です。  
-[公開先](https://amybunny.moo.jp/)  
-[ソースコード](https://github.com/Amybunny/liketwi)
 
-# ToDoリスト
+[公開先](https://amybunny.moo.jp/)  
+[ソースコード](https://github.com/Amybunny/liketwi)  
+<br>
+<br>
+
+## ToDoリスト
 {{< figure src="/img/portfolio/todolist.png" >}}
 素のJavaScriptで作りました。データの保存にはデータベースではなくローカルストレージを使用しています。  
 [公開先](https://Amybunny.github.io/todolist)  
@@ -51,7 +76,7 @@ WordPressでデザインからコーディングまで全て行いました。
 <br>
 <br>
 
-# ストップウォッチ
+## ストップウォッチ
 {{< figure src="/img/portfolio/stopwatch.png" >}}
 素のJavaScriptで作りました。  
 ドットインストールで紹介されていたストップウォッチを改良しています。  
@@ -61,16 +86,8 @@ WordPressでデザインからコーディングまで全て行いました。
 <br>
 <br>
 
-# プロフィールサイト(のようなもの)
-{{< figure src="/img/portfolio/profilesite.png" >}}
-このブログに取って代わられました。  
-トップ画像はjQueryのslickプラグインでフェードさせています。  
-[公開先](https://Amybunny.github.io/profilesite)  
-[ソースコード](https://github.com/Amybunny/profilesite)
-<br>
-<br>
 
-# 電気を付けたり消したりするだけのアプリ
+## 電気を付けたり消したりするだけのアプリ
 {{< figure src="/img/portfolio/off.png" >}}
 JavaScriptを学びたての頃に作りました。  
 永遠に遊んでいられます(私だけ?)    
@@ -79,7 +96,7 @@ JavaScriptを学びたての頃に作りました。
 <br>
 <br>
 
-# うるう年判定プログラム
+## うるう年判定プログラム
 {{< figure src="/img/portfolio/leapyear.png" >}}
 基本情報技術者試験のアルゴリズム問題を勉強していて、参考書にうるう年判定プログラムが載っていたので、JavaScriptで実装してみました。      
 [公開先](https://Amybunny.github.io/leapyear)  
@@ -87,14 +104,9 @@ JavaScriptを学びたての頃に作りました。
 <br>
 <br>
 
-# 病院サイトのデザイン
-{{< figure src="/img/portfolio/PC.png" >}}
-デザインを勉強したので、クラウドソーシングサイトでお題を見つけて作ってみました。
-Photoshopを使用しています。
-<br>
-<br>
+# デザインなど
 
-# 転職サイトのバナー
+## 転職サイトのバナー
 {{< figure src="/img/portfolio/banner.jpg" >}}
 ツイッターで、
 >「かわいいは作れる」みたいなノリで「人生は創れる」っていう広告ないかな  
@@ -103,7 +115,7 @@ Photoshopを使用しています。
 <br>
 <br>
 
-# 各種アイコン
+## 各種アイコン
 {{< figure src="/img/portfolio/icon.jpg" >}}
 Illustratorの使い方を学んだので、いろんなアイコンを作ってみました。 
 <br>
