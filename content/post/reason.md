@@ -6,6 +6,9 @@ share_img: img/share_img.png
 categories: 自分語り
 description: 
 ---
+<br>
+私は元小学校教師です。  
+<br>
 
 ## なぜ教師になり、辞めたのか
 
