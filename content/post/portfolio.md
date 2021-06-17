@@ -2,7 +2,7 @@
 title: "ポートフォリオ"
 date: 2021-02-23
 lastmod: 2021-05-22
-categories: その他
+categories: 実績など
 share_img: "img/portfolio/portfolio.png"
 # draft: true
 description: プログラミングを学習して、今までに作ったものや実績をまとめました。
