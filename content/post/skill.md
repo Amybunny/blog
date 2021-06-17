@@ -1,5 +1,5 @@
 ---
-title: "できること"
+title: "現在のスキルレベルを言語化してみた"
 date: 2021-06-18T00:21:05+09:00
 # draft: true
 share_img: img/share_img.png
