@@ -8,7 +8,7 @@
 </div>
 {{end}}
 
-{{ $paginator := .Paginate (.Site.RegularPages.ByDate.Reverse) 5 }}
+{{ $paginator := .Paginate (.Site.RegularPages.ByDate.Reverse) 10 }}
 
 <ul>
   {{ range $paginator.Pages }}
