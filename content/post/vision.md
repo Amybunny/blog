@@ -82,4 +82,5 @@ description:
 
 # そのために何をしてきたの？
 勉強して少なくとも[これくらい](https://amybunny.work/post/skill/)はできるようになった。  
-あと今まで作ったものは[ここ](https://amybunny.work/post/portfolio/)にまとめた。
+今まで作ったものは[こちら](https://amybunny.work/post/portfolio/)  
+学習歴は[こちら](https://amybunny.work/post/history/)
