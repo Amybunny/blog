@@ -4,7 +4,7 @@ date: 2021-06-18T00:21:30+09:00
 # draft: true
 share_img: img/share_img.png
 categories: 自分語り
-description: 
+description: 教師を辞めた理由をまとめました。
 ---
 <br>
 私は元小学校教師です。  

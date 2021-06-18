@@ -4,7 +4,7 @@ date: 2021-06-18T00:21:05+09:00
 # draft: true
 share_img: img/share_img.png
 categories: 実績など
-description:
+description: 現在のスキルレベルをまとめました。
 ---
 <br>
 現在のスキルレベルをまとめました。
