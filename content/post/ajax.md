@@ -7,7 +7,6 @@ share_img: "img/ajax.png"
 description: Ajax通信の実装方法について説明します。
 ---
 <br>
-こんにちは！  
 今回は、Ajax通信の基本的な実装方法について説明します。  
 <br>
 <br>
