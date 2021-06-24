@@ -10,7 +10,7 @@ description: 現在のスキルレベルをまとめました。
 現在のスキルレベルをまとめました。
 
 ## HTML
-divタグだらけにならないように気をつけながら、作りたいレイアウトは思った通りに作れます。  
+適切なタグを使用し、作りたいレイアウトは思った通りに作れます。  
 canvasは[MDNのブロック崩しのチュートリアル](https://developer.mozilla.org/ja/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript)を見て少し書いたことがあります。  
 疑似要素は苦手です。  
 
