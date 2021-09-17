@@ -1,6 +1,6 @@
 ---
 title: "現在のスキルレベルを言語化してみた"
-date: 2021-06-18T22:03:00+09:00
+date: 2021-06-19T22:04:00+09:00
 # draft: true
 share_img: img/share_img.png
 categories: 実績など
