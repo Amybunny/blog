@@ -1,0 +1,15 @@
+{{ define "title" }}
+{{- .Title -}}
+{{ end }}
+{{ define "main" }}
+{{ .Content }}
+
+<div class="termsContainer">
+  <h1 class="titles mPlus1p">カテゴリ一覧</h1>
+  <ul>
+    {{ range .Pages -}}
+    <li><a class="termsTitle" href="{{ .RelPermalink }}">{{ .Title }}({{ len .Pages}})</a></li>
+    {{ end -}}
+  </ul>
+</div>
+{{ end }}

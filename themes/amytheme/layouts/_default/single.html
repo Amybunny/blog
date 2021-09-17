@@ -1,0 +1,48 @@
+{{ define "title" }}
+{{ end }}
+{{ define "main" }}
+{{ "<!-- _default/single.html start -->" | safeHTML }}
+<div class="singleContainer">
+  <h2 class="mPlus1p titles">{{ .Title }}</h2>
+
+  <div class="entryInfoArea">
+    {{ $datestr := .Site.Params.dateformat | .Date.Format }}
+    {{ $lastmodstr :=  .Site.Params.dateformat | .Lastmod.Format }}
+    <div class="Date">
+      <p class="mPlus1p singleDate"><i class="fas fa-pen"></i> {{ $datestr }}</p>
+      {{ if ne $datestr $lastmodstr }}
+      <p class="mPlus1p singleDate"><i class="fas fa-sync-alt"></i> {{ $lastmodstr }}</p>
+      {{ end }}
+    </div>
+    <a class="singleCategories" href="{{ "/categories/" | relURL }}{{ .Params.categories | urlize }}">
+      {{.Params.categories}}
+    </a>
+  </div>
+
+  <img class="thumbnail" src="/{{.Params.share_img}}" alt="">
+
+  <div class="singleContent">{{ .Content }}</div>
+
+  <div class="shareBtnArea">
+    <p class="mPlus1p share">シェアする</p>
+    <a class="rectangleBorder twitterBtn" href="//twitter.com/share?url={{ .Permalink }}&amp;text={{ .Title }}" target="_blank" title="Share on Twitter"><i class="rectangleBorder fab fa-twitter"></i></a>
+  </div>
+
+  <div class="pagination singlePagination">
+    {{ if .PrevInSection }}
+    <a class="rectangleBorder prev singlePrev" href="{{ .PrevInSection.Permalink }}">前へ</a>
+    {{ end }}
+    
+    {{ if .NextInSection }}
+    <a class="rectangleBorder next singleNext" href="{{ .NextInSection.Permalink }}">次へ</a>
+    {{ end }}
+  </div>
+
+  <div class="mPlus1p breadCrumb">
+    <a href ="/"><i class="fas fa-home"></i> ホーム</a> >
+    <a href="{{ "/categories/" | relURL }}{{ .Params.categories | urlize }}"><i class="fas fa-folder"></i> {{.Params.categories}}</a>
+  </div>
+</div>
+  
+{{ "<!-- _default/single.html end -->" | safeHTML }}
+{{ end }}

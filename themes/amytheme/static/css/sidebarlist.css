@@ -1,0 +1,12 @@
+.sidebarTitle{
+  background-color: #f6ad3c;
+  color:#fff;
+  width: 90%;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+.listTitle{
+  margin:20px 30px;
+}

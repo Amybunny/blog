@@ -1,0 +1,83 @@
+{{ define "title" }}
+{{ end }}
+{{ define "main" }}
+
+<h1 class="titles listPageTitle mPlus1p"><i class="fas fa-folder"></i> {{ .Title }}</h1>
+
+{{ $paginator := .Paginate (.Data.Pages.ByDate.Reverse) 5 }}
+
+<ul>
+  {{ range $paginator.Pages }}
+  {{ $datestr := .Site.Params.dateformat | .Date.Format }}
+    <li>
+      <a class="rectangleBorder entryCard" href="{{.RelPermalink}}">
+        <img class="rectangleBorder entryCardImg" src="/{{ .Params.share_img }}" alt="">
+        <div class="entryCardText">
+          <p class="mPlus1p entryCardTitle">{{.Title}}</p>
+          <p class="entryCardDate">{{ $datestr }}</p>
+        </div>
+      </a>
+    </li>
+  {{ end }}
+</ul>
+
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+  <ul class="pagination indexPagination mPlus1p">
+    <!--最初へ-->
+      {{ if $pag.HasPrev }}
+      <li><a class="hidden first" href="{{ $pag.First.URL }}">最初へ</a></li>
+      {{ end }}
+
+    <!--前へ-->
+      {{ if $pag.HasPrev }}
+      <li><a class="rectangleBorder prev indexPrev" href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}">前へ</a></li>
+      {{ end }}
+
+    <!------1ページ目------>
+    {{ if eq $pag.PageNumber $pag.First.PageNumber }}
+      {{ range first 3  $pag.Pagers }}
+        {{ if eq . $pag }}<li class="active">{{else}}<li>{{ end }}
+          <a class="hidden pageNumber" href="{{ .URL }}">{{ .PageNumber }}</a>
+        </li>
+      {{ end }}    
+
+    <!------最終ページ------>
+    {{ else if eq $pag.PageNumber $pag.Last.PageNumber }}
+      {{ range last 3  $pag.Pagers }}
+        {{ if eq . $pag }}<li class="active">{{else}}<li>{{ end }}
+          <a class="hidden pageNumber" href="{{ .URL }}">{{ .PageNumber }}</a>
+        </li>
+      {{ end }}
+
+    <!------それ以外------>
+    {{ else }}
+      <li>
+        <a class="hidden pageNumber" href="{{ if $pag.HasPrev }}{{$pag.Prev.URL}}{{end}}">{{ if $pag.HasPrev }}{{ $pag.Prev.PageNumber }}{{end}}</a>
+      </li>
+      <li class="active">
+        <a class="hidden pageNumber" href="{{$pag.URL}}">{{ $pag.PageNumber }}</a>
+      </li>
+      <li>
+        <a class="hidden pageNumber" href="{{ if $pag.HasNext }}{{$pag.Next.URL}}{{end}}">{{ if $pag.HasNext }}{{ $pag.Next.PageNumber }}{{end}}</a>
+          </li>            
+    {{ end }}
+
+    <!--次へ-->
+      {{ if $pag.HasNext }}
+      <li><a class="rectangleBorder next indexNext" href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}">次へ</a></li>
+      {{ end }}
+
+    <!--最後へ-->
+      {{ if $pag.HasNext }}
+      <li><a class="hidden last" href="{{ $pag.Last.URL }}">最後へ</a></li>
+      {{ end }}
+      
+  </ul>
+{{ end }}
+
+<div class="mPlus1p breadCrumb listBreadCrumb">
+    <a href ="/"><i class="fas fa-home"></i> ホーム</a> > <i class="fas fa-folder"></i> {{ .Title }}
+</div>
+
+{{ end }}

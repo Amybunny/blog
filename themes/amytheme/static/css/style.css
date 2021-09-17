@@ -1,0 +1,147 @@
+body{
+	font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic ProN",
+	"メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #545454;
+}
+pre{
+  padding: 8px 0;
+  overflow-x: scroll;
+}
+code{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size:15px;
+}
+:not(pre) > code {
+  background-color: #f5f5f5;
+  color: #d7003a;
+}
+.wrapper{
+  min-height:100vh;
+  position: relative;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+.footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.mPlus1p{
+  font-family: 'M PLUS 1p', sans-serif;
+}
+.titles{
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 16px auto;
+}
+.rectangleBorder{
+  border-radius: 4px;
+}
+.bar{
+  background-color: #f6ad3c;
+  color: #fff;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+.siteTitle{
+  font-size: 28px;
+  font-weight: bold;
+}
+.footerText{
+  font-size: 14px;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+}
+.twitterBtn{
+  cursor: pointer;
+  text-align: center;
+  background-color: #1da1f2;
+  color:#fff;
+  display: block;
+  margin: 0 auto;
+}
+.listPageTitle{
+  width: 90%;
+}
+.listBreadCrumb{
+  width: 90%;
+  margin: 0 auto;
+}
+.termsContainer{
+  width: 90%; 
+  margin:0 auto;
+}
+.termsTitle{
+  color:#f6ad3c;
+  display: block;
+  margin:8px;
+
+}
+/* ----------------------------------------
+PC
+---------------------------------------- */
+@media screen and (min-width: 601px){
+  .titles{
+    font-size: 27px;
+  }
+  .mainContainer{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main{
+    width:70%;
+  }
+  .sidebar{
+    width:30%;
+  }
+  .pagination{
+    margin: 0 auto;
+  }
+  .prev,.next{
+    display: block;
+    margin: 0 8px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .termsTitle{
+    font-size: 20px;
+  }
+  .twitterBtn{
+    height:40px;
+    line-height: 45px;
+    width:100px
+  }
+  .fa-twitter{
+    font-size: 24px;
+  } 
+}
+/* ----------------------------------------
+スマホ
+---------------------------------------- */
+@media screen and (max-width: 600px){
+  .titles{
+    font-size: 20px;
+  }
+  .bar{
+    height: 72px;
+    line-height: 72px;
+  }
+  .siteTitle{
+    font-size: 18px;
+  }
+  .twitterBtn{
+    height:30px;
+    line-height: 32px;
+    width: 100px;
+  }
+  .fa-twitter{
+    font-size: 20px;
+  } 
+  .listBreadCrumb{
+    margin: 20px auto;
+  }
+}

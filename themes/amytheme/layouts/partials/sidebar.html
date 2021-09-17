@@ -1,0 +1,27 @@
+<div class=" profContainer">
+  <p class="mPlus1p profTitle">プロフィール</p>
+  <img class="profImg" src="{{ .Site.Params.img | absURL }}" alt="">
+  <p class="mPlus1p profAuthor">{{ .Site.Params.author }}</p>  
+  <p class="profText">{{ .Site.Params.prof }}</p> 
+  <a class="rectangleBorder twitterBtn" href="https://twitter.com/Amybunnycarry">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <p class="follow">↑follow me！</p>
+</div>
+
+<ul>
+  <li class="mPlus1p sidebarTitle">最近の投稿</li>
+    {{ range first 5 .Site.RegularPages.ByDate.Reverse }}
+      <li class ="listTitle">
+        <a class="listTitleLink" href="{{.RelPermalink}}">{{.Title}}</a>
+      </li>
+    {{ end }}
+  <li class="mPlus1p sidebarTitle">カテゴリ</li>
+    {{ range .Site.Taxonomies.categories.ByCount }}
+      <li class ="listTitle">
+        <a class="listTitleLink" href="{{ "/categories/" | relURL }}{{ .Name | urlize }}">
+          {{ .Name }}({{ .Count }})
+        </a>
+      </li>
+    {{ end }}
+</ul>

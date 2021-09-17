@@ -1,0 +1,34 @@
+baseurl = "https://amybunny.work"
+languageCode = "ja"
+title = "ねむみの極み"
+theme = "amytheme"
+disableKinds = ["RSS","sitemap"]
+googleAnalytics = "G-K1YGFJSJ22"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[Params]
+  dateFormat = "2006-01-02"
+  author = "あみぃ"
+  img = "img/mooface.jpg"
+  prof = "プログラミングを勉強中の29歳です。学習中に得た知見をブログにまとめています。"
+  favicon = "favicon.ico"
+  logo = "img/thumbnail.png"
+  mainSections = ["post","posts"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 2
