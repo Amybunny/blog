@@ -2,7 +2,7 @@
 title: "あなたは何がしたいの？"
 date: 2021-06-18T22:00:00+09:00
 # draft: true
-share_img: img/share_img.png
+share_img: img/wdyw.jpg
 categories: 自分語り
 description: やりたいことをまとめてみました
 ---
