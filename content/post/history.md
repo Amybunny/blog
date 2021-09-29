@@ -2,7 +2,7 @@
 title: "プログラミングなどの学習歴"
 date: 2021-06-18T22:01:00+09:00
 # draft: true
-share_img: img/share_img.png
+share_img: img/history.png
 categories: 自分語り
 description: プログラミングなどの学習歴をまとめました。
 ---
