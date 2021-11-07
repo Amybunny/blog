@@ -2,7 +2,7 @@
 title: "教師を辞めた理由"
 date: 2021-06-18T22:00:02+09:00
 # draft: true
-share_img: img/share_img.png
+share_img: img/bb.png
 categories: 自分語り
 description: 教師を辞めた理由をまとめました。
 ---
