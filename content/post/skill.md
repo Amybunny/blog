@@ -57,9 +57,9 @@ push, pull, fetch, clone, add, commit, merge, branch, checkout, logなどの意�
 
 ## ネットワーク基礎  
 OSI参照モデル／イーサネット／TCP・IP／ルーティング／ACL／VLAN／NAT／DHCP／DNS／STPなどの概要を理解しています。  
+ネットワーク構築技術については、シミュレーターを使って試しながら学習しています。  
 
 ## Linux/サーバー基礎  
-Linux基本コマンド、権限設定、環境変数、Webサーバー構築、SSH接続などを理解しています。
-
-## これから身に付けたいこと
-フレームワークの知識、テストの知識、セキュリティの知識  
+基本コマンド、権限設定、環境変数、viエディタの使用方法などを理解しています。  
+VirtualBoxやVMWareなどを用いてWebサーバーを構築することができます。(LAMP環境構築)  
+WinSCPやTeraTermからのSSH接続ができます。  
