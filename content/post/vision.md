@@ -4,10 +4,7 @@ date: 2021-06-18T22:00:00+09:00
 <<<<<<< HEAD
 draft: true
 share_img: img/share_img.png
-=======
-# draft: true
 share_img: img/wdyw.jpg
->>>>>>> 69707167ad4a85a4fbb904653f5fb74b1a51d052
 categories: 自分語り
 description: やりたいことをまとめてみました
 ---
