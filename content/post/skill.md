@@ -10,6 +10,15 @@ description: 現在のスキルレベルをまとめました。
 <br>
 現在のスキルレベルをまとめました。
 
+## ネットワーク基礎  
+OSI参照モデル／イーサネット／TCP・IP／ルーティング／ACL／VLAN／NAT／DHCP／DNS／STPなどの概要を理解しています。  
+ネットワーク構築技術については、シミュレーターを使って試しながら学習しています。  
+
+## Linux/サーバー基礎  
+基本コマンド、権限設定、環境変数、viエディタの使用方法などを理解しています。  
+VirtualBoxやVMWareなどを用いてWebサーバーを構築することができます。(LAMP環境構築)  
+WinSCPやTeraTermからのSSH接続ができます。  
+
 ## HTML
 適切なタグを使用し、作りたいレイアウトは思った通りに作れます。  
 canvasは[MDNのブロック崩しのチュートリアル](https://developer.mozilla.org/ja/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript)を見て少し書いたことがあります。  
@@ -55,12 +64,3 @@ push, pull, fetch, clone, add, commit, merge, branch, checkout, logなどの意�
 マイナーなCMS(Hugo)でテーマ作成を行ったり、やっている人が少ないこと(JSP&サーブレットで作ったアプリをHerokuにデプロイ)に挑戦しています。  
 <br>
 どちらもひたすら検索して情報をかき集め、仮説を立てて試行錯誤しながら完成させています。周りに聞ける人もいないため、独力で行っています。
-
-## ネットワーク基礎  
-OSI参照モデル／イーサネット／TCP・IP／ルーティング／ACL／VLAN／NAT／DHCP／DNS／STPなどの概要を理解しています。  
-ネットワーク構築技術については、シミュレーターを使って試しながら学習しています。  
-
-## Linux/サーバー基礎  
-基本コマンド、権限設定、環境変数、viエディタの使用方法などを理解しています。  
-VirtualBoxやVMWareなどを用いてWebサーバーを構築することができます。(LAMP環境構築)  
-WinSCPやTeraTermからのSSH接続ができます。  
