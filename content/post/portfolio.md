@@ -24,16 +24,6 @@ WordPressでデザインからコーディングまで全て行いました。
 <br>
 <br>
 
-## WordPressのカスタマイズ
-{{< figure src="/img/portfolio/blog.png" >}}
-WordPressで既存テーマのカスタマイズを行いました。    
-カテゴリ一覧に飛べるバナーと、固定ページに飛べるバナー、画像付きSNSリンクを作りました。  
-作業の素早さに喜んでいただけました。  
-制作期間：1週間  
-[公開先](https://apomaru.com)  
-<br>
-<br>
-
 ## 病院サイトのデザイン
 {{< figure src="/img/portfolio/PC.png" >}}
 デザインを勉強したので、クラウドソーシングサイトでお題を見つけて作ってみました。
