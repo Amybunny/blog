@@ -4,7 +4,7 @@ date: 2022-12-11T14:17:47+09:00
 #draft: true
 share_img: img/share_img.png
 categories: 技術解説
-description:
+description: LPIC101のちょっととっつきにくい部分を解説しました。
 ---
 <br>
 
