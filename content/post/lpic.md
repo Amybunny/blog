@@ -8,7 +8,9 @@ description: LPIC101のちょっととっつきにくい部分を解説しまし
 ---
 <br>
 
-この記事は[TechCommit Advent Calendar 2022](https://adventar.org/calendars/7673) 14日目の記事です。
+こんにちは。あみぃです。  
+この記事は[TechCommit Advent Calendar 2022](https://adventar.org/calendars/7673) 14日目の記事です。  
+前回は、iriyaさんの[インストール済み VSCode 拡張機能一覧 2022-12 版](https://iriya-ufo.net/blog/2022/12/13/vscode-extension-3/)でした。
 <br>
 <br>
 
