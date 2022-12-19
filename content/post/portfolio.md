@@ -14,16 +14,6 @@ description: プログラミングを学習して、今までに作ったもの�
 
 # Webサイトなど
 
-## ヒーリングサロンのWebサイト
-{{< figure src="/img/portfolio/salon.png" >}}
-WordPressでデザインからコーディングまで全て行いました。  
-アクセス元は大半がスマホであると予想し、スマホに最適化したデザインにしています。  
-運用保守も担当し、GoogleAnalyticsとGoogleSearchConsoleに登録し、アクセス解析を行っています。  
-制作期間：延べ2ヶ月(実質1ヶ月)  
-[公開先](https://euphoria-reiki.net)  
-<br>
-<br>
-
 ## 病院サイトのデザイン
 {{< figure src="/img/portfolio/PC.png" >}}
 デザインを勉強したので、クラウドソーシングサイトでお題を見つけて作ってみました。
