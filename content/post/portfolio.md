@@ -37,7 +37,7 @@ Photoshopを使用しています。
 Javaで何か作ってみたかったので、サーブレット/JSPを使って、何回でもいいねを押せるアプリを作りました。  
 herokuで公開するためには普通に作ったアプリをmavenプロジェクトに変換して別途設定ファイルを作ったりProcfileを作る必要がありました。そのやり方が分からずイチから学習し、かなり試行錯誤したため、デプロイだけでも30時間くらいかかりました。  
 制作期間：1週間  
-[公開先](https://mugenlikes.herokuapp.com/)  
+[公開先](https://mugenlikes.herokuapp.com/)←メンテナンス中  
 [ソースコード](https://github.com/Amybunny/mugenlikes)  
 <br>
 <br>
