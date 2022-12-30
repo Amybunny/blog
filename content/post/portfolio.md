@@ -1,7 +1,7 @@
 ---
 title: "ポートフォリオ"
 date: 2021-02-23
-lastmod: 2021-05-22
+lastmod: 2022-12-30
 categories: 実績など
 share_img: "img/portfolio/portfolio.png"
 # draft: true
