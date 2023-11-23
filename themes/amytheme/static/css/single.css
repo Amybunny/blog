@@ -1,3 +1,31 @@
+.xToc {
+  font-size: smaller;
+  border-radius: 0.5em;
+  border: solid 1px lightgray;
+  padding: 0.5em 1em;
+  line-height: 2;
+  margin:32px auto
+}
+.xToc_title {
+  font-weight: bolder;
+}
+.xToc ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.xToc li {
+  padding-top: 0 !important;
+}
+.xToc li > ul {
+  padding-left: 1em;
+  width: 100%;
+}
+.xToc a {
+  font-weight: normal;
+  display: block;
+  border-bottom: dashed 1px lightgray;
+}
+
 blockquote{
   padding-left: 10px;
   border-left:5px solid #ddd;
@@ -20,14 +48,21 @@ blockquote{
   font-family: 'M PLUS 1p', sans-serif;
   font-size: 22px;
   font-weight: bold;
-  /* border-left:5px solid #f6ad3c; */
   padding: 5px 8px 4px 8px;
   margin: 40px 0 8px 0;
   background-color: #f6ad3c;
   color:white;
 }
 .singleContent h2{
-  /* font-family: 'M PLUS 1p', sans-serif; */
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px 8px 4px 8px;
+  margin: 40px 0 8px 0;
+  background-color: #f6ad3c;
+  color:white;
+}
+.singleContent h3{
   font-size: 18px;
   font-weight: bold;
   border-bottom:2px solid #f6ad3c;

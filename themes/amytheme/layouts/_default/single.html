@@ -2,6 +2,9 @@
 {{ end }}
 {{ define "main" }}
 {{ "<!-- _default/single.html start -->" | safeHTML }}
+<style>
+
+</style>
 <div class="singleContainer">
   <h2 class="mPlus1p titles">{{ .Title }}</h2>
 
@@ -20,6 +23,14 @@
   </div>
 
   <img class="thumbnail" src="/{{.Params.share_img}}" alt="">
+
+  {{- with .TableOfContents }}
+  <aside class="xToc">
+    <div class="xToc_title">目次</div>
+    {{ . }}
+  </aside>
+  {{- end }}
+ 
 
   <div class="singleContent">{{ .Content }}</div>
 
