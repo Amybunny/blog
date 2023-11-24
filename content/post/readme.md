@@ -7,13 +7,13 @@ categories:
 description:
 ---
 
-1.新しい記事を作る
+・新しい記事を作る
 $ hugo new post/hoge.md
 
-2.ローカルサーバーを立ち上げる
+・ローカルサーバーを立ち上げる
 $ hugo server -D
 
-3.デプロイする
+・デプロイする
 $ sh deploy.sh
 
 ・blogフォルダが下書き

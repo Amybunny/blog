@@ -4,7 +4,7 @@ date: 2021-02-23
 lastmod: 2022-12-30
 categories: 実績など
 share_img: "img/portfolio/portfolio.png"
-# draft: true
+draft: true
 description: プログラミングを学習して、今までに作ったものや実績をまとめました。
 ---
 <br>
