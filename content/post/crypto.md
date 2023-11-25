@@ -1,7 +1,7 @@
 ---
 title: "公開鍵暗号方式を図解してみた"
 date: 2021-05-17T22:07:43+09:00
-categories: その他
+categories: 技術解説
 share_img: "img/crypto/crypto-thumbnail.png"
 description: 情報処理試験で問われる暗号方式を図解しました。
 ---

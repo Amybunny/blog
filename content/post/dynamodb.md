@@ -1,7 +1,7 @@
 ---
 title: "PartiQLを使用してDynamoDBのデータをCSVに出力する方法"
 date: 2023-11-23T15:19:40+09:00
-draft: true
+#draft: true
 share_img: "img/dynamo/partiql.png"
 categories: aws
 description: DynamoDBのデータをCSVに落とす方法を解説します。
@@ -19,7 +19,7 @@ PartiQLを使用すると簡単にできたので紹介します。
 PartiQLはDynamoDBに対してSQLが使える機能です。  
 あまり高度なことはできませんが、使い慣れたSQLでクエリできるので便利です。  
 
-### やり方
+### 方法
 以下のようなデータがあったとします。  
 <br>
 パーティションキー：prefecture  
