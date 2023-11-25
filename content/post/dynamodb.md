@@ -4,7 +4,7 @@ date: 2023-11-23T15:19:40+09:00
 #draft: true
 share_img: "img/dynamo/partiql.png"
 categories: aws
-description: DynamoDBのデータをCSVに落とす方法を解説します。
+description: DynamoDBのデータをCSVに出力する方法を解説します。
 ---
 
 こんにちは。  
