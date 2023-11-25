@@ -3,6 +3,15 @@ body{
 	"メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	color: #545454;
 }
+
+a:hover{
+  text-decoration: underline;
+}
+
+p{
+  word-break: break-all;
+}
+
 pre{
   padding: 8px 0;
   overflow-x: scroll;
@@ -78,7 +87,9 @@ code{
   color:#f6ad3c;
   display: block;
   margin:8px;
-
+}
+.highlight{
+  overflow-x: scroll;
 }
 /* ----------------------------------------
 PC

@@ -1,7 +1,7 @@
 ---
 title: "PHPやJavaでAjaxを実装する方法"
 date: 2021-04-28
-# draft: true
+## draft: true
 categories: JavaScript
 share_img: "img/ajax.png"
 description: Ajax通信の実装方法について説明します。
@@ -16,7 +16,7 @@ description: Ajax通信の実装方法について説明します。
 この記事では記述の簡単なjQueryを用いて必要最低限のコードを示すことで、Ajaxを実装できるようにします。  
 サンプルコードではPHPを使い、ユーザーが入力した言葉を画面に表示する処理を例に説明していきます。
 
-# 普通のPOST送信だと
+## 普通のPOST送信だと
 Ajaxにするとデータのやりとりがどう変わるのかを比較するために、まずは普通のPOST送信の記述例を示します。手っ取り早くAjaxのコードを見たい方は飛ばしてください。
 <br>
 <br>
@@ -63,7 +63,8 @@ header("Location:index.php");
 などといった流れになるかと思います。その際、ページ全体を更新するので、画面が一度白くなります。  
 {{< figure src="/img/input.png" >}}
 {{< figure src="/img/display.png" >}}
-# Ajaxだと
+
+## Ajaxだと
 今度はAjaxを使うとどのような流れになるかを見ていきます。  
 <br>
 index.php
@@ -81,10 +82,10 @@ index.php
   <p id="display"></p>
   <script>
     $(function(){
-      $('#send').on('click',function(){
+      $('##send').on('click',function(){
 
         //送信するデータを変数に入れる
-        let words = $('#words').val();
+        let words = $('##words').val();
 
         //1.通信に必要な情報
         $.ajax({
@@ -95,7 +96,7 @@ index.php
 
         //2.通信が成功した時の処理
         }).done(function(result){
-          $('#display').html(result);
+          $('##display').html(result);
 
         //3.通信が失敗した時の処理
         }).fail(function(){
@@ -142,7 +143,7 @@ ex）
 ・いいねボタンを押したらDBのいいねを増やし、画面の数字も増やす。  
 ・会員登録時に入力されたIDをDBから瞬時に検索し、使用可否を画面に表示する。  
 
-# Javaだと  
+## Javaだと  
 JSP/サーブレットで作ったアプリにAjaxを使いたかったので、PHPで動いたコードを元にJavaでの書き方を模索しました。  
 <br>
 いいねボタンを押したら送信先でいいねを増やす処理をして、返ってきた数字を画面に表示させるコードです。 
@@ -171,7 +172,7 @@ Ajaxを使わない場合はフォワードで元のページに戻ってきま�
 <br>
 こうしてできたのが[無限いいね](https://mugenlikes.herokuapp.com/)です。  
 
-# まとめ
+## まとめ
 最初はなんとなくとっつきにくいAjaxですが、  
 <br>
 ・データのやりとりをJavaScriptがやってくれること  
