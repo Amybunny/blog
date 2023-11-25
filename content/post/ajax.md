@@ -170,7 +170,6 @@ main.jsp
 送信先のコードは長いので、見たい方は[github](https://github.com/Amybunny/mugenlikes/blob/main/src/main/java/servlet/Main.java)を見てください。
 Ajaxを使わない場合はフォワードで元のページに戻ってきましたが、PHPの```echo()```のように、```out.print()```にいいね数を入れることでデータが返ってきます。  
 <br>
-こうしてできたのが[無限いいね](https://mugenlikes.herokuapp.com/)です。  
 
 ## まとめ
 最初はなんとなくとっつきにくいAjaxですが、  
