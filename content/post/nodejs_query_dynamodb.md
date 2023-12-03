@@ -3,12 +3,20 @@ title: "DynamoDBのデータをLambdaでクエリする方法(AWS SDK for JS3が
 date: 2023-11-25T21:06:42+09:00
 draft: true
 share_img: img/node.png
-categories: aws
+categories: AWS
 description: DynamoDBのデータをLambdaでクエリする方法を解説します
 ---
 
 こんにちは。  
+この記事は[TechCommit Advent Calendar 2023](https://adventar.org/calendars/8839) 3日目の記事です。  
+前回は[井上さん](https://adventar.org/calendars/8839)でした。  
+<br>
+
 [別記事](https://amybunny.work/post/dynamodb/)ではPartiQLを使用してDynamoDBのデータをクエリする方法を紹介しましたが、本記事ではLambda(Node.js)でクエリする方法を解説します。  
+<br>
+
+※本記事では、DynamoDBとは何ぞや？については触れません。  
+初心者の方は、[Amazon DynamoDBとは何かをわかりやすく図解、どう使う？テーブル設計の方法とは](https://www.sbbit.jp/article/cont1/95515)などを読んでみるとよいと思います。
 
 ### 方法
 前回と同じデータを例に説明します。
@@ -17,8 +25,8 @@ description: DynamoDBのデータをLambdaでクエリする方法を解説し�
 コードは以下の通りです。
 {{< highlight javascript "linenos=true" >}}
 //必要なライブラリをインポート
-import {DynamoDBClient} from "@aws-sdk/client-dynamodb";
-import {QueryCommand, DynamoDBDocumentClient} from "@aws-sdk/lib-dynamodb";
+import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
+import { QueryCommand, DynamoDBDocumentClient } from "@aws-sdk/lib-dynamodb";
 
 //Dynamoオブジェクトを生成
 const client = new DynamoDBClient();
@@ -60,7 +68,7 @@ export const handler = async () => {
     const response = await client.send(command);
 
   }catch(e){
-    console.log("エラー："+e);
+    console.log("エラー：" + e);
   }
   
 };
@@ -100,7 +108,15 @@ Filterの方は、パーティションキーとソートキー以外のカラ�
 検索に使いたいカラム名がDynamoDBの予約語だった場合、検索条件の中で直接指定することができません。今回の場合、「date」の部分が該当します。  
 <br>
 通常であれば```begins_with(date,:date)```で良いのですが、これではエラーになります。  
-そのため、検索条件内では#を付けて```begins_with(#date,:date)```とし、**ExpressionAttributeNames**の中で```"#date":"date"```のようにカラムを指定します。
+そのため、検索条件内では#を付けて```begins_with(#date,:date)```とし、  
+**ExpressionAttributeNames**の中で```"#date":"date"```のようにカラムを指定します。  
+
+### おわりに
+なんたらExpression、なんたらAttributeがたくさん出てきて最初は大変ですが、最小構成から少しずつ試すと分かってくると思います。  
+<br>
+誰かの参考になれば幸いです。  
+<br>
+次回は[??さん](https://adventar.org/calendars/8839)です。
 
 ### 参考
 [JavaScript (v3) 用の SDK を使用した DynamoDB の例](https://docs.aws.amazon.com/ja_jp/sdk-for-javascript/v3/developer-guide/javascript_dynamodb_code_examples.html)  
