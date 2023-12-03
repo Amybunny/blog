@@ -3,7 +3,7 @@ title: "PartiQLを使用してDynamoDBのデータをCSVに出力する方法"
 date: 2023-11-23T15:19:40+09:00
 #draft: true
 share_img: "img/dynamo/partiql.png"
-categories: aws
+categories: AWS
 description: DynamoDBのデータをCSVに出力する方法を解説します。
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "DynamoDBのデータをLambdaでクエリする方法(AWS SDK for JS3がバンドルされているNode.jsを使用)"
-date: 2023-11-25T21:06:42+09:00
-draft: true
+date: 2023-12-03T20:29:01+09:00
+#draft: true
 share_img: img/node.png
 categories: AWS
 description: DynamoDBのデータをLambdaでクエリする方法を解説します
@@ -9,7 +9,6 @@ description: DynamoDBのデータをLambdaでクエリする方法を解説し�
 
 こんにちは。  
 この記事は[TechCommit Advent Calendar 2023](https://adventar.org/calendars/8839) 3日目の記事です。  
-前回は[井上さん](https://adventar.org/calendars/8839)でした。  
 <br>
 
 [別記事](https://amybunny.work/post/dynamodb/)ではPartiQLを使用してDynamoDBのデータをクエリする方法を紹介しましたが、本記事ではLambda(Node.js)でクエリする方法を解説します。  
@@ -116,7 +115,6 @@ Filterの方は、パーティションキーとソートキー以外のカラ�
 <br>
 誰かの参考になれば幸いです。  
 <br>
-次回は[??さん](https://adventar.org/calendars/8839)です。
 
 ### 参考
 [JavaScript (v3) 用の SDK を使用した DynamoDB の例](https://docs.aws.amazon.com/ja_jp/sdk-for-javascript/v3/developer-guide/javascript_dynamodb_code_examples.html)  
